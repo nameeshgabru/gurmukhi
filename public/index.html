@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gurmukhi</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <style>
+      .grid-container {
+        display: grid;
+        grid-template-columns: auto auto auto auto auto;
+        background-color: #2196f3;
+        padding: 10px;
+        width: 460px;
+        margin: auto;
+        margin-top: 20px;
+      }
+      .grid-container > div {
+        background-color: rgba(255, 255, 255, 0.8);
+        text-align: center;
+        justify-self: center;
+        padding: 20px 0;
+        font-size: 30px;
+        width: 80px;
+        cursor: pointer;
+        margin-bottom: 15px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="grid-container"></div>
+    <audio id="audio-elem"></audio>
+    <script defer src="client.js"></script>
+  </body>
+</html>
